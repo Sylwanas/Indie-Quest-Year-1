@@ -9,8 +9,11 @@ namespace Algorithm_design_1___Mission_3
             int numberResult;
             if (number > 10)
             {
-                numberResult = number / 10;
-                numberResult &= 10;
+                numberResult = (number / 10) % 10;
+                if (numberResult == 1) 
+                {
+                    return $"{number}th";
+                }
             }
 
                 numberResult = number % 10;
