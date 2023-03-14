@@ -110,15 +110,15 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
             for (int y = 0; y < height; y++)
             {
                 //Same thing as with riverChar, just so it displays based on how it moves (lower chance to move.)
-                int wallDirection = random.Next(1, 21);
+                int wallDirection = random.Next(1, 11);
                 char wallChar;
 
-                if (wallDirection <= 1 && wall > 0)
+                if (wallDirection <= 5 && wall > 0)
                 {
                     wall--;
                     wallChar = '/';
                 }
-                else if (wallDirection <= 2 && wall < width)
+                else if (wallDirection <= 11 && wall < width)
                 {
                     wall++;
                     wallChar = '\\';
@@ -305,6 +305,9 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
                 backGround[wallStartX + 1, wallY + i, 2] = ConsoleColor.Black;
                 foreGround[wallStartX + 1, wallY + i, 2] = ConsoleColor.Gray;
                 characters[wallStartX + 1, wallY + i, 2] = ']';
+
+                backGround[wallStartX - 1, wallY + i, 2] = ConsoleColor.Green;
+                characters[wallStartX - 1, wallY + i, 2] = ' ';
             }
 
             //Preparing the title to be drawn and making sure it is in the middle of the map no matter the size. COMPLETED
