@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice Simulator 1 Mission 2", "Dice Simulator 1 Mission 2\Dice Simulator 1 Mission 2.csproj", "{CCB20326-266F-4B95-85A5-4C62FDE54FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB20326-266F-4B95-85A5-4C62FDE54FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB20326-266F-4B95-85A5-4C62FDE54FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB20326-266F-4B95-85A5-4C62FDE54FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB20326-266F-4B95-85A5-4C62FDE54FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEA6C47E-B089-4526-A503-762D5F82673D}
+	EndGlobalSection
+EndGlobal

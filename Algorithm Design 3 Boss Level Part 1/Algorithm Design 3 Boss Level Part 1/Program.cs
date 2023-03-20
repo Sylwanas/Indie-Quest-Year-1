@@ -2,14 +2,27 @@
 
 namespace Algorithm_Design_3_Boss_Level_Part_1
 {
+    class MapTile
+    {
+        char character;
+        ConsoleColor ForegroundColor;
+        ConsoleColor BackgroundColor;
+    }
     internal class Program
     {
         static Random random = new Random();
 
+        /// <summary>
+        /// Create a map and display it
+        /// </summary>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
         static void Map(int width, int height)
         {
             //Preparing map variables for drawing with 3d arrays, with the different layers (width, height and depth, this  will decide position and layer.) COMPLETED
             int depth = 4;
+            MapTile[,,] Map = new MapTile[width, height, depth];
+
             char[,,] characters = new char[width, height, depth];
             ConsoleColor[,,] foreGround = new ConsoleColor[width, height, depth];
             ConsoleColor[,,] backGround = new ConsoleColor[width, height, depth];
@@ -35,7 +48,7 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
                 {
                     forestBorder--;
                 }
-                else if (forest <= 6 && forestBorder < width - forest)
+                else if (forest <= 6)
                 {
                     forestBorder++;
                 }
@@ -43,9 +56,9 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
                 //Drawing the background, foreground and trees.
                 for (int i = 0; i < forestBorder; i++)
                 {
-                    backGround[forestBorder - i, y, 2] = ConsoleColor.DarkGreen;
-                    foreGround[forestBorder - i, y, 2] = ConsoleColor.Green;
-                    characters[forestBorder - i, y, 2] = 'T';
+                    backGround[i, y, 2] = ConsoleColor.DarkGreen;
+                    foreGround[i, y, 2] = ConsoleColor.Green;
+                    characters[i, y, 2] = 'T';
                 }
             }
 
@@ -357,11 +370,11 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
                 {
                     for (int z = 0; z < depth; z++)
                     {
-                        Console.BackgroundColor = backGround[x, y, z];
-                        Console.ForegroundColor = foreGround[x, y, z];
-                        Console.Write(characters[x, y, z]);
                         if (characters[x, y, z] != '\0')
                         {
+                            Console.BackgroundColor = backGround[x, y, z];
+                            Console.ForegroundColor = foreGround[x, y, z];
+                            Console.Write(characters[x, y, z]);
                             break;
                         }
                     }
@@ -372,7 +385,7 @@ namespace Algorithm_Design_3_Boss_Level_Part_1
 
         static void Main(string[] args)
         {
-            //Calling Map
+            //Calling the map method with sizes, first for width, second for height. 
             Map(120, 30);
 
             Console.BackgroundColor = ConsoleColor.Red;
