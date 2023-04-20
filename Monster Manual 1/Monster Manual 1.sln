@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monster Manual 1", "Monster Manual 1\Monster Manual 1.csproj", "{526C4472-43B8-4386-8C0E-16DE903FB159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526C4472-43B8-4386-8C0E-16DE903FB159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526C4472-43B8-4386-8C0E-16DE903FB159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526C4472-43B8-4386-8C0E-16DE903FB159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526C4472-43B8-4386-8C0E-16DE903FB159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F581BD5C-C71F-483E-8CB7-B874F1F1FCED}
+	EndGlobalSection
+EndGlobal
