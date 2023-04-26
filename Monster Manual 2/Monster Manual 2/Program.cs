@@ -96,7 +96,7 @@ namespace Monster_Manual_1
                     {
                         Console.WriteLine("Please enter the number of the armor type you wish to be informed about.?");
                     }
-                    else
+                    if (chooseType != null)
                     {
                         break;
                     }
