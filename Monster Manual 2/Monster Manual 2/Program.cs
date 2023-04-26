@@ -10,10 +10,10 @@ namespace Monster_Manual_1
         public enum ArmorTypeId
         {
             Unspecified,
-            Natural,
-            Leather,
+            NaturalArmor,
+            LeatherArmor,
             StuddedLeather,
-            Hide,
+            HideArmor,
             ChainShirt,
             ChainMail,
             ScaleMail,
@@ -54,10 +54,11 @@ namespace Monster_Manual_1
                 armorTypeNames = Enum.GetNames<ArmorTypeId>();
                 ArmorTypeId[] armorTypes = Enum.GetValues<ArmorTypeId>();
                 ArmorTypeId tempArmorType = ArmorTypeId.Other;
+                string armorSearch = armorTypeSplits.Length > 1 ? armorTypeSplits[0] + armorTypeSplits[1] : armorTypeSplits[0];
 
                 for (int i = 0; i < armorTypeNames.Length; i++)
                 {
-                    if (armorTypeNames[i].Contains(armorTypeSplits[0]))
+                    if (armorTypeNames[i].Contains(armorSearch))
                     {
                         tempArmorType = armorTypes[i];
                     }
@@ -148,7 +149,7 @@ namespace Monster_Manual_1
 
                     severalMonsters.Clear();
 
-                    if (foundMonster == false)
+                    if (!foundMonster)
                     {
                         Console.WriteLine($"I could not any results containing {monsterSearch}. please try again.");
                     }
@@ -179,20 +180,35 @@ namespace Monster_Manual_1
                         }
                     }
 
-                    Console.WriteLine($"I found several results. Which one would you like to know more about?");
-                    for (int i = 0; i < severalMonsters.Count; i++)
+                    if (severalMonsters.Count == 1)
                     {
-                        Console.WriteLine($"{i + 1}. {severalMonsters[i].name}");
+                        foreach (Monster creature in severalMonsters)
+                        {
+                            Console.WriteLine($"Name: {creature.name}");
+                            Console.WriteLine($"Description: {creature.description}");
+                            Console.WriteLine($"Aligment: {creature.alignment}");
+                            Console.WriteLine($"Rolled HP: {creature.rollHP}");
+                            Console.WriteLine($"Armor Class: {creature.armor}");
+                            Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+                        }
                     }
-                    string numberSearch = Console.ReadLine();
-                    int number = Convert.ToInt32(numberSearch);
-                    Console.WriteLine($"Name: {severalMonsters[number - 1].name}");
-                    Console.WriteLine($"Description: {severalMonsters[number - 1].description}");
-                    Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
-                    Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
-                    Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
-                    Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
 
+                    if (severalMonsters.Count > 1)
+                    {
+                        Console.WriteLine($"I found several results. Which one would you like to know more about?");
+                        for (int i = 0; i < severalMonsters.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}. {severalMonsters[i].name}");
+                        }
+                        string numberSearch = Console.ReadLine();
+                        int number = Convert.ToInt32(numberSearch);
+                        Console.WriteLine($"Name: {severalMonsters[number - 1].name}");
+                        Console.WriteLine($"Description: {severalMonsters[number - 1].description}");
+                        Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
+                        Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
+                        Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
+                        Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+                    }
                     severalMonsters.Clear();
                     chooseType = null;
                     Console.WriteLine();
