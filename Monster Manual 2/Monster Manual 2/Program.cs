@@ -7,74 +7,183 @@ namespace Monster_Manual_1
 {
     internal class Program
     {
+        public enum ArmorTypeId
+        {
+            Unspecified,
+            Natural,
+            Leather,
+            StuddedLeather,
+            Hide,
+            ChainShirt,
+            ChainMail,
+            ScaleMail,
+            Plate,
+            Other
+        }
+
         public class Monster
         {
             public string name;
             public string description;
             public string alignment;
-            public int baseHP;
             public string rollHP;
+            public string armor;
+            public ArmorTypeId armorTypeId;
         }
 
         static void Main(string[] args)
         {
             string monsterManual = File.ReadAllText("MonsterManual.txt");
 
+            string[] armorTypeNames = Enum.GetNames<ArmorTypeId>();
+            ArmorTypeId[] armorTypeIds = Enum.GetValues<ArmorTypeId>();
 
             List<Monster> monsters = new List<Monster>();
 
             MatchCollection matches = Regex.Matches(monsterManual,
                 @"(.*)\n" + //Name
                 @"(.*), (.*)\n" + //Desc + Alignment
-                @"Hit Points: (\d*)(?: \((.*)\))? ?\n" //HP
+                @"Hit Points: \d*(?: \((.*)\))? ?\n" + //HP
+                @"Armor Class: (\d*) \((.*)\)" //Armor + Type
                 );
 
             foreach (Match match in matches)
             {
+                string armorType = match.Groups[6].Value;
+                string[] armorTypeSplits = armorType.Split(' ');
+                armorTypeNames = Enum.GetNames<ArmorTypeId>();
+                ArmorTypeId[] armorTypes = Enum.GetValues<ArmorTypeId>();
+                ArmorTypeId tempArmorType = ArmorTypeId.Other;
+
+                for (int i = 0; i < armorTypeNames.Length; i++)
+                {
+                    if (armorTypeNames[i].Contains(armorTypeSplits[0]))
+                    {
+                        tempArmorType = armorTypes[i];
+                    }
+                }
+
                 Monster monster = new Monster
                 {
                     name = match.Groups[1].Value,
                     description = match.Groups[2].Value,
                     alignment = match.Groups[3].Value,
-                    baseHP = Convert.ToInt32(match.Groups[4].Value),
-                    rollHP = match.Groups[5].Value,
+                    rollHP = match.Groups[4].Value,
+                    armor = match.Groups[5].Value,
+
                 };
+                monster.armorTypeId = tempArmorType;
                 monsters.Add(monster);
             }
 
-            Console.WriteLine("Welcome user, what monster would you like to be informed about?");
+            Console.WriteLine("Welcome user, what would you like to be informed about?\n");
             List<Monster> severalMonsters = new List<Monster>();
             Monster lookUpMonster = new Monster();
             bool foundMonster = false;
             bool searching = true;
             do
             {
-                string monsterSearch = Console.ReadLine();
+                Console.WriteLine("Please enter either a (n)ame or (a)rmor.");
+                string chooseType = Console.ReadLine();
 
-                foreach (Monster monster in monsters)
+                while (chooseType != "n" || chooseType != "a")
                 {
-                    if (monster.name.ToLower().Contains(monsterSearch.ToLower()))
+                    if (chooseType == "n")
                     {
-                        lookUpMonster = monster;
-                        severalMonsters.Add(monster);
-                        foundMonster = true;
+                        Console.WriteLine("Please enter the name of the monster you wish to be informed about.");
+                    }
+                    else if (chooseType == "a")
+                    {
+                        Console.WriteLine("Please enter the number of the armor type you wish to be informed about.?");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    if (chooseType != null)
+                    {
+                        break;
                     }
                 }
 
-                if (severalMonsters.Count == 1)
+                if (chooseType == "n")
                 {
-                    foreach (Monster creature in severalMonsters)
+                    string monsterSearch = Console.ReadLine();
+
+                    foreach (Monster monster in monsters)
                     {
-                        Console.WriteLine($"Name: {creature.name}");
-                        Console.WriteLine($"Description: {creature.description}");
-                        Console.WriteLine($"Aligment: {creature.alignment}");
-                        Console.WriteLine($"Rolled HP: {creature.rollHP}");
+                        if (monster.name.ToLower().Contains(monsterSearch.ToLower()))
+                        {
+                            lookUpMonster = monster;
+                            severalMonsters.Add(monster);
+                            foundMonster = true;
+                        }
                     }
+
+                    if (severalMonsters.Count == 1)
+                    {
+                        foreach (Monster creature in severalMonsters)
+                        {
+                            Console.WriteLine($"Name: {creature.name}");
+                            Console.WriteLine($"Description: {creature.description}");
+                            Console.WriteLine($"Aligment: {creature.alignment}");
+                            Console.WriteLine($"Rolled HP: {creature.rollHP}");
+                            Console.WriteLine($"Armor Class: {creature.armor}");
+                            Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+                        }
+                    }
+
+                    if (severalMonsters.Count > 1)
+                    {
+                        Console.WriteLine($"I found several results containing {monsterSearch}. Which one would you like to know more about?");
+                        for (int i = 0; i < severalMonsters.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}. {severalMonsters[i].name}");
+                        }
+                        string numberSearch = Console.ReadLine();
+                        int number = Convert.ToInt32(numberSearch);
+                        Console.WriteLine($"Name: {severalMonsters[number - 1].name}");
+                        Console.WriteLine($"Description: {severalMonsters[number - 1].description}");
+                        Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
+                        Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
+                        Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
+                        Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+                    }
+
+                    severalMonsters.Clear();
+
+                    if (foundMonster == false)
+                    {
+                        Console.WriteLine($"I could not any results containing {monsterSearch}. please try again.");
+                    }
+                    foundMonster = false;
+
+                    Console.WriteLine();
                 }
 
-                if (severalMonsters.Count > 1)
+                while (chooseType == "a")
                 {
-                    Console.WriteLine($"I found several results containing {monsterSearch}. Which one would you like to know more about?");
+                    int count = 1;
+                    foreach (string showArmor in Enum.GetNames(typeof(ArmorTypeId)))
+                    {
+                        Console.WriteLine($"{count}. {showArmor}");
+                        count++;
+                    }
+
+                    string pickArmor = Console.ReadLine();
+                    int pickedArmor = Convert.ToInt32(pickArmor);
+
+                    foreach (Monster monster in monsters)
+                    {
+                        ArmorTypeId armorResult = (ArmorTypeId)pickedArmor - 1;
+
+                        if (monster.armorTypeId == armorResult)
+                        {
+                            severalMonsters.Add(monster);
+                        }
+                    }
+
+                    Console.WriteLine($"I found several results. Which one would you like to know more about?");
                     for (int i = 0; i < severalMonsters.Count; i++)
                     {
                         Console.WriteLine($"{i + 1}. {severalMonsters[i].name}");
@@ -85,42 +194,15 @@ namespace Monster_Manual_1
                     Console.WriteLine($"Description: {severalMonsters[number - 1].description}");
                     Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
                     Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
-                }
+                    Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
+                    Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
 
-                severalMonsters.Clear();
-
-                if (foundMonster == false)
-                {
-                    Console.WriteLine($"I could not any results containing {monsterSearch}, please try again.");
+                    severalMonsters.Clear();
+                    chooseType = null;
+                    Console.WriteLine();
                 }
-                foundMonster = false;
 
             } while (searching == true);
         }
     }
 }
-/*
- *                     if (monster.name.ToLower().Contains(monsterSearch.ToLower()))
-                    {
-                        lookUpMonster = monster;
-                        severalMonsters.Add(monster);
-
-                        if (severalMonsters.Count > 1)
-                        {
-                            Console.WriteLine("There are several results user, which one would you like to know more about?");
-                            foreach (Monster creature in severalMonsters)
-                            {
-                                Console.WriteLine($"{creature.name}");
-                            }
-                            string monsterNumber = Console.ReadLine();
-                            int result = Convert.ToInt32(monsterNumber);
-                            Console.WriteLine($"Name: {monster.name[result - 1]}");
-                            Console.WriteLine($"Description: {monster.description[result - 1]}");
-                            Console.WriteLine($"Aligment: {monster.alignment[result - 1]}");
-                            Console.WriteLine($"Rolled HP: {monster.rollHP[result - 1]}");
-                            foundMonster = true;
-                            break;
-                        }
-                    }
-
-*/
