@@ -100,10 +100,6 @@ namespace Monster_Manual_1
                     {
                         break;
                     }
-                    if (chooseType != null)
-                    {
-                        break;
-                    }
                 }
 
                 if (chooseType == "n")
