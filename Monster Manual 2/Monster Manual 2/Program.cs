@@ -21,6 +21,19 @@ namespace Monster_Manual_1
             Other
         }
 
+        public enum ArmorCategory
+        {
+            Light,
+            Medium,
+            Heavy
+        }
+        class ArmorType
+        {
+            public string DisplayName;
+            public ArmorCategory Category;
+            public int Weight;
+        }
+
         public class Monster
         {
             public string name;
@@ -31,9 +44,14 @@ namespace Monster_Manual_1
             public ArmorTypeId armorTypeId;
         }
 
+        static Dictionary<ArmorTypeId, ArmorType> armorTypes = new Dictionary<ArmorTypeId, ArmorType>();
+
         static void Main(string[] args)
         {
             string monsterManual = File.ReadAllText("MonsterManual.txt");
+            string[] armorManual = File.ReadAllLines("ArmorManual.txt");
+
+            ArmorType currentArmor;
 
             string[] armorTypeNames = Enum.GetNames<ArmorTypeId>();
             ArmorTypeId[] armorTypeIds = Enum.GetValues<ArmorTypeId>();
@@ -75,6 +93,17 @@ namespace Monster_Manual_1
                 };
                 monster.armorTypeId = tempArmorType;
                 monsters.Add(monster);
+            }
+
+            for (int i = 0; i < armorManual.Length; i++)
+            {
+                currentArmor = new ArmorType();
+                string[] split = armorManual[i].Split(",");
+                ArmorTypeId armorTypeID = Enum.Parse<ArmorTypeId>(split[0]);
+                currentArmor.DisplayName = split[1];
+                currentArmor.Category = Enum.Parse<ArmorCategory>(split[2]);
+                currentArmor.Weight = Convert.ToInt32(split[3]);
+                armorTypes.Add(armorTypeID, currentArmor);
             }
 
             Console.WriteLine("Welcome user, what would you like to be informed about?\n");
@@ -126,7 +155,18 @@ namespace Monster_Manual_1
                             Console.WriteLine($"Aligment: {creature.alignment}");
                             Console.WriteLine($"Rolled HP: {creature.rollHP}");
                             Console.WriteLine($"Armor Class: {creature.armor}");
-                            Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+
+                            if (armorTypes.ContainsKey(creature.armorTypeId))
+                            {
+                                currentArmor = armorTypes[creature.armorTypeId];
+                                Console.WriteLine($"Armor Type: {currentArmor.DisplayName}");
+                                Console.WriteLine($"Armor Category: {currentArmor.Category}");
+                                Console.WriteLine($"Armor Weight: {currentArmor.Weight} lbs.");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+                            }
                         }
                     }
 
@@ -144,7 +184,17 @@ namespace Monster_Manual_1
                         Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
                         Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
                         Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
-                        Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+                        if (armorTypes.ContainsKey(severalMonsters[number - 1].armorTypeId))
+                        {
+                            currentArmor = armorTypes[severalMonsters[number - 1].armorTypeId];
+                            Console.WriteLine($"Armor Type: {currentArmor.DisplayName}");
+                            Console.WriteLine($"Armor Category: {currentArmor.Category}");
+                            Console.WriteLine($"Armor Weight: {currentArmor.Weight} lbs.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+                        }
                     }
 
                     severalMonsters.Clear();
@@ -189,7 +239,18 @@ namespace Monster_Manual_1
                             Console.WriteLine($"Aligment: {creature.alignment}");
                             Console.WriteLine($"Rolled HP: {creature.rollHP}");
                             Console.WriteLine($"Armor Class: {creature.armor}");
-                            Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+
+                            if (armorTypes.ContainsKey(creature.armorTypeId))
+                            {
+                                currentArmor = armorTypes[creature.armorTypeId];
+                                Console.WriteLine($"Armor Type: {currentArmor.DisplayName}");
+                                Console.WriteLine($"Armor Category: {currentArmor.Category}");
+                                Console.WriteLine($"Armor Weight: {currentArmor.Weight} lbs.");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Armor Type: {creature.armorTypeId}");
+                            }
                         }
                     }
 
@@ -207,7 +268,18 @@ namespace Monster_Manual_1
                         Console.WriteLine($"Aligment: {severalMonsters[number - 1].alignment}");
                         Console.WriteLine($"Rolled HP: {severalMonsters[number - 1].rollHP}");
                         Console.WriteLine($"Armor Class: {severalMonsters[number - 1].armor}");
-                        Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+
+                        if (armorTypes.ContainsKey(severalMonsters[number - 1].armorTypeId))
+                        {
+                            currentArmor = armorTypes[severalMonsters[number - 1].armorTypeId];
+                            Console.WriteLine($"Armor Type: {currentArmor.DisplayName}");
+                            Console.WriteLine($"Armor Category: {currentArmor.Category}");
+                            Console.WriteLine($"Armor Weight: {currentArmor.Weight} lbs.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Armor Type: {severalMonsters[number - 1].armorTypeId}");
+                        }
                     }
                     severalMonsters.Clear();
                     chooseType = null;
