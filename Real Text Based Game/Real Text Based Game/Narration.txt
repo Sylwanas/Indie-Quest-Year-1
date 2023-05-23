@@ -1,0 +1,1088 @@
+RightfulEnd
+eventName: Like Father like Son. (Escape by Inheritance)
+eventNarration: Showing them the body and putting the crown on your head they seem uncertain for a while. You were the rightful heir but have now killed your predecessor, your own father. Before they have time to speak you bark out an order. “Spread the word! The old king is dead! I am now king! Spread the word! And know that all shall heed my word or be punished…” You stare into one of the terrified guards' eyes. “Severely.”
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: true
+listOfChoices: Restart, Quit
+
+TowerEscape
+eventName: Jump In! Ft Corbin Bleu and Keke Palmer (Escape by Jumping)
+eventNarration: Putting the shoes on you jump from the watchtower, sliding all the way down to a high tree and landing on it, being able to climb down and run away from the castle, finally free. (Escape by Jumping)
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: true
+listOfChoices: Restart, Quit
+
+SewerEscape
+eventName: You’ve Been Through A Lot Of Shit (Escape by the sewers)
+eventNarration: The Rat King tries to attack you but his court, enamored by the turkey leg, manages to overpower him, his eyes full of rage and hunger meeting yours as you run past as fast as you can, jumping from the pipe and landing in a river of freedom. 
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: true
+listOfChoices: Restart, Quit
+
+GatehouseEscape
+eventName: Never underestimate the effectiveness of a straight cash bribe. (Escape by Bribery)
+eventNarration: Giving him the ring he goes back to yawning, tilting his head down and closing his eyes, giving you an opportunity to run away. You don’t skip a beat and immediately run past him and out through the main gate, to freedom. (Escape by Bribery)
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: true
+listOfChoices: Restart, Quit
+
+SleepDeath
+eventName: Sleeping Beauty (Death by Oversleeping)
+eventNarration: Laying down on the bed the silken sheets caress your body, the pillows are just fluffy enough but firm enough for proper neck support. The covers are heavy, as if you are being embraced by a lover and the drapes on the bed block out any outside light. You fall asleep instantly before someone rudely awakens you with a sword in your chest. The light fades in your eyes as all you can think is “Five more minutes…” (Death by Oversleeping)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+CookDeath
+eventName: You Want A Piece Of Me? (Death by Cook)
+eventNarration: Sneaking over to the large turkey in the middle of the kitchen the aroma itself is enough to make you salivate, ripping of piece after piece you finish it all quickly, feeling only bliss. For a moment until the cook notices you on the floor and the bones left from the devoured turkey. “You… You…! You!!!” That probably isn’t good. The light fades in your eyes as the cook brings out a delectable mystery pie, with exotic meat for the king. (Death by Cook)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+HearthDeath
+eventName: A Hot Mistake (Death by Spontaneous Human Combustion)
+eventNarration: Sneaking over to the hearth you manage to climb up a bit before you hear people walk closer, you can hear the servant girl say. “Well I should get to work, I came here because his majesty was cold so I better get started, see you later Guts!” You try to quickly climb back down but your foot seems to be stuck in between two bricks. The light fades in your eyes as the fire starts roaring up. (Death by Spontaneous Human Combustion)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+LoveDeath
+eventName: Sweet Embrace Of Death (Death by Revenge)
+eventNarration: Throwing the dagger at the girl the throw is just short, but you have little time to lament over it as the guard that was speaking to her quickly turns around, running at you whilst yelling “GRIFFITH!”. The light fades in your eyes as he cleaves you in two. 
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+KingDeath
+eventName: A Fatherly Embrace (Death by Prolicide)
+eventNarration: You leap at the king, bringing your hands up to his throat. As you do he takes a sword from behind him and quickly cuts you down, looking at your body on the floor as the light fades from your eyes. (Death by Prolicide)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+FightDeath
+eventName: Long Live The King (Death by Kingsguard)
+eventNarration: As the guards reach the top of the stairs you turn around and attack them, your masterful daggerwork makes quick work of the first few but they keep coming. Eventually the light fades from your eyes as they manage to cut you down. (Death by Kingsguard)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+DeathByShit
+eventName: A Royal Shit (Death by Shit)
+eventNarration: Squeezing your way through the tight pipe you begin to hear the sound of a great rush, the entire pipe trembling and shaking as a tidal wave of loose bowels hits you, robbing you of air or movement. The light fades in your eyes as wave after wave continues. (Death by Shit)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+RatsDeath
+eventName: Ka-rat-te (Death by Rats)
+eventNarration: Walking down the tunnel the noises become louder and louder. As you’re trying to figure out what it could be you accidentally step on something soft and fleshy, the sound causes hundreds of red eyes to twist over to you. Uh-oh. The light fades from your eyes as the legion of rats pick your bones clean. (Death by Rats)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+RatKingDeath
+eventName: A True King (Death by Rat King)
+eventNarration: Trying to run around the rat king you become entangled by his tail. With a screech his attached court attacks you and the light quickly fades from your eyes. (Death by Rat King)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+GloryDeath
+eventName: Freedoooooooom! (Death by Glorious Combat)
+eventNarration: Slamming open the door to the main hall your eyes alight with rage and righteous fury, you charge at the first guard you see, fear fills his eyes as you run at him and just before your mighty blade makes contact the carpet gets pulled out from under you. The light fades from your eyes as one of the *many* the swords you took impaled you during the fall. (Death by Glorious Combat)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+StarvationDeath
+eventName: So… Hungry…(Death by Starvation)
+eventNarration: One eternity later - The light fades in your eyes as you are a skeleton on the top of the tower. (Death by Starvation)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+StairsDeath
+eventName: I’ve Fallen! And I Can’t Get Up! (Death by Stairs)
+eventNarration: As you turn around to walk down the stairs you slip on a banana peel you’re sure wasn’t there before. The light fades in your eyes as you hit your head, arm, leg, hip, back and stomach.
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+GeorjoTortureDeath
+eventName: This Is Gonna Hurt (Death by Torture)
+eventNarration: As you turn around to walk back into the dungeon you see Georjos face right next to yours, strange seeing as he’s asleep on his chair. Oh. The light fades from your eyes as you are put into all manner of different contraptions and Georjo uses his imagination to make it hurt. (Death by Torture)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+BarracksDeath
+eventName: What did you expect was going to happen? (Death by Ambition)
+eventNarration: As you slam open the door and yell, the guards quickly begin scrambling around, shouting orders and screaming at each other they all until the captain of the guard comes into the room. “What is all this ruckus about?!” “Sir the prisoner has escaped!” They answer and point at you. The captain takes one look at you before slapping the guard “That is the prisoner you idiot!” and the light fades in your eyes as they all attack you(Death by Ambition)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+PretendServantDeath
+eventName: Not Exactly James Bond (Death by Discovery)
+eventNarration: Putting on the servants' dress you walk around and ask people if they want help with anything, you spend most of the day giving guards wine, helping in the stables and cooking in the kitchen with the chef. It’s all going well until you go home for the day and Georjo sees you in the middle of the courtyard. The light fades in your eyes as he orders the guards to kill you. (Death by Discovery)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+BoilingWaterDeath
+eventName: Oooh That’s Hot! (Death by Boiling Water)
+eventNarration: Pulling the string the latch right above you opens and the light fades from your eyes as hot boiling water showers down on you from above.
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+GateDeath
+eventName: Donut (Death by Gate)
+eventNarration: Attempting to run past the guard he sighs and puts both fingers in his mouth and wolf whistles before yelling. “Close the gate! Intruder!” The gate comes crashing down just as you are about to cross it. you throw yourself forward and to your surprise you make it out to the other side! Well, half of you do. The light fades in your eyes as you see there's a hole in you to fill. (Death by Gate)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+FallingDeath
+eventName: Improper Construction (Death by Falling)
+eventNarration: Opening the door and stepping through you quickly notice your foot does not connect with anything, the balcony appearing to be halfway through renovations causing you to quickly plummet to your death. They really should put up a warning sign. (Death by Falling)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+PeeDeath
+eventName: A bad place to hang around. (Death by bad manners)
+eventNarration: Searching the room you find…! nothing. Well nothing of value, there seems to be a brush no one appears to use after using the commode, but other than that only toilet paper. As you search you stand up, ready to move on you hear the opening of a door behind you and as you turn around you see one of the guards already in the middle of their business. Before going into a state of total relaxation they notice you. “Hey wait a minute…You didn’t flush!” Taking their sword and plunging it into your chest as the light fades from your eyes. (Death by bad manners)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+TedAndKenDeath
+eventName: Bad Roommates (Killed by Ted and Ken)
+eventNarration: Walking over to your fellow prisoners you begin to speak before Ted grabs your ankle and drags you down onto the ground, the back of your head hits the stone and you hear Ted say “You start at the feet, I’ll start at the head.” After a little while you hear Ted speak again “You okay?” “Fine” Ken answers: “I’m having a ball” “You’re eating too fast.” and the light fades from your eyes. (Cannibalised)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+ScreamingDeath
+eventName: A Bit Too Enthusiastic (Death by Screaming)
+eventNarration: The moment after you shout “I’m Free!” The archers on the walls, the guardsmen at the game and the servants all look at you before you are turned into a splat on the floor and the light fades in your eyes. (Death by Screaming)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+DungeonCell
+eventName: Dungeon Cell
+eventNarration: Drip… Drip… Drip…  You suddenly feel a drop of ice cold water hitting your forehead. Awakening with a gasp, you quickly blink several times to attempt to see something in the darkness, but the room around you is pitch black as always. The damp, mossy stone floor is as uncomfortable as ever, not to mention a poor bed. In the corner of the cell you can hear Ted chewing on a rat as Ken chews on Ted. On the other side of the cell bars you can hear the snoring of the dungeon keeper, Georjo. Enough is enough. If you stay here you are going to die. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: DungeonCellId1, DungeonCellId2, DungeonCellId3
+
+DungeonCellId1
+choiceName: Here boy, here boy.
+choiceNarration: Grab one of the many dead rats and attempt to convince Georjo’s dog to come over with the keys. 
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonProperDog
+
+DungeonCellId2
+choiceName: Sucking it in.
+choiceNarration: Attempt to squeeze your malnourished body through the gap between the last bar and the wall.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonProperSqueeze
+
+DungeonCellId3
+choiceName: Friends always stick together.
+choiceNarration: Walk over to Ted and Ken and try to convince them that you can all escape together by ripping the bars out of the wall.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: TedAndKenDeath
+
+DungeonProperDog
+eventName: Dungeon Proper Dog
+eventNarration: Looking around you see one of the dead rats that your roommates have been feeding on. Grabbing it before walking over to the bars you try to goad Georjos dog over. After a bit it stands up, walking over with the keys before dropping them to the ground for the rat. You see Georjo stir in his sleep as the sound echoes out but you manage to quickly pick them up and unlock the cell without him waking up. Finally out of that cramped cell you look around for the first time properly. To your left is the torture chamber, a place you are, unfortunately, familiar with. Behind Georjo you can barely make out a stairway leading upwards and to your right is a strange hole in the ground, with a foul odor spreading from it. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: DungeonProperId1, DungeonProperId2, DungeonProperId3
+
+DungeonProperSqueeze
+eventName: Dungeon Proper Squeeze
+eventNarration: You suck what little fat you have on your body and barely manage to squeeze through. Finally out of that cramped cell you look around for the first time properly. To your left is the torture chamber, a place you are, unfortunately, familiar with. Behind Georjo you can barely make out a stairway leading upwards and to your right is a strange hole in the ground, with a foul odor spreading from it. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: DungeonProperId1, DungeonProperId2, DungeonProperId3
+
+DungeonProperId1
+choiceName: Bad memories.
+choiceNarration: Try to overcome your bad memories and go into the torture chamber.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: TortureChamber
+
+DungeonProperId2
+choiceName: You monster.
+choiceNarration: Attempt to sneak behind Georjo and walk up the stairs.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonStairway
+
+DungeonProperId3
+choiceName: Hole in one.
+choiceNarration: The hole calls to you. Jump in.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: Sewers
+
+TortureChamber
+eventName: Torture Chamber
+eventNarration: Not letting the past hold you back you walk into the torture chamber. It smells just as you remember it, feces, blood and axe body spray. As you look around to try and find a way forward you see the chute leading up into the kitchen. they would drop boiling water from there at Georjos request… Not a pleasant experience. It does seem like the safest option rather than accidentally waking Georjo up by going back in the dungeon. You also notice a strange string hanging from the ceiling. You wonder what it does? What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: TortureChamberId1, TortureChamberId2, TortureChamberId3
+
+TortureChamberId1
+choiceName: No Time To Think
+choiceNarration: Try to climb up the chute as fast as you can to get out of this horrible place.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: Kitchen
+
+TortureChamberId2
+choiceName: I Wonder What This Does?
+choiceNarration: Pull the weird string hanging from the ceiling
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: BoilingWaterDeath
+
+TortureChamberId3
+choiceName: Scaredy Cat
+choiceNarration: Try and walk back to the dungeon, climbing seems too risky.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: GeorjoTortureDeath
+
+Kitchen
+eventName: Have You Seen Chef?
+eventNarration: You manage to make your way all the way to the top of the chute, pushing the lid at the top up a little you see the cook making what looks like roast turkey, it smells amazing. Catching yourself starting to float towards the smell you focus and begin to look around the room, noticing the only exit on the far side of the room you can see the cook walking around whilst singing to himself. What would you like to do?
+eventItem: turkeyLeg
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: KitchenId1, KitchenId2, KitchenId3
+
+KitchenId1
+choiceName: A Delicious Distraction
+choiceNarration: Distract the cook by knocking over his spice shelf using the opportunity to sneak past him and grab a turkey leg before going into the main hall at the far side of the room.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: MainHallNorth
+
+KitchenId2
+choiceName: Sneaky Sneak
+choiceNarration: Keep low under the counters and grab a turkey leg, pocketing it for later and sneak over to the exit.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: MainHallNorth
+
+KitchenId3
+choiceName: Digging In
+choiceNarration: Start eating the turkey, the cook probably won’t mind.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: CookDeath
+
+MainHallNorth
+eventName: 
+eventNarration: Looking into the main hall you see an excessively ornate throne made out of gold with precious gems adorning it sits at the end opposite of the main doors. Long great tables for feasting sit in the middle of the hall and in the corner is a surprisingly tasteful candelabra. There appears to be only one guard here, standing next to what looks like the barracks. Seeming quite busy talking to one of the servant girls. Next to you is a closet full of clothes for servants, other than that, there are the large main doors at the other end of the hall and a smaller door to your left leading to the unknown. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: MainHallNorthId1, MainHallNorthId2, MainHallNorthId3
+
+MainHallNorthId1
+choiceName: Get Outta My Yard!
+choiceNarration: Go over to the large doors and enter the courtyard.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: CourtyardNorth
+
+MainHallNorthId2
+choiceName: In Disguise
+choiceNarration: Take some servant clothes out of the closet and pretend you are one of the servant girls.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: PretendServantDeath
+
+MainHallNorthId3
+choiceName: To Infinity, And Beyond!
+choiceNarration: Sneak over to the unknown door and enter it.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Bedroom
+
+CourtyardNorth
+eventName: Courtyard North
+eventNarration: Stepping out of the main hall into the courtyard you see the high walls around the central open area, to the south is a stained door leading to somewhere unknown to you that lead, you think you could sneak over there but it seems risky. Other than that there is the gatehouse leading out of the castle. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: CourtyardNorthId1, CourtyardNorthId2, CourtyardNorthId3
+
+CourtyardNorthId1
+choiceName: Who Knows, It Might Work
+choiceNarration: Walk into the middle of the courtyard and scream “I’m Free!”.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: ScreamingDeath
+
+CourtyardNorthId2
+choiceName: House Of Gates
+choiceNarration: Hurry over to the gatehouse and try to escape.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Gatehouse
+
+CourtyardNorthId3
+choiceName: Going To The Loo, Commode, Toilet, Can.
+choiceNarration: Sneak over to the other side as best you can trying to move in the shadows so as to not arouse suspicion. 
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Commode
+
+DungeonStairway
+eventName: Dungeon Stairway
+eventNarration: Deciding to try and go higher up you begin to walk towards the stairs but forget that Georjos dog is laying in front of you eating the dead rat. It lets out a loud yelp as you step on its tail and it looks up at you in confusion and sadness from the betrayal. You feel like a monster. Walking up the stairs you start to hear voices from above, moving quietly you make it to a door at the top of the stairs leading to their origin. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: DungeonStairwayId1, DungeonStairwayId2, DungeonStairwayId3
+
+DungeonStairwayId1
+choiceName: Open the crack.
+choiceNarration: Crack open the door and take a peek.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Barracks
+
+DungeonStairwayId2
+choiceName: Patience is a virtue.
+choiceNarration: Wait for the voices to disappear.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Barracks
+
+DungeonStairwayId3
+choiceName: Slam dunk.
+choiceNarration: Slam open the door and shout “The prisoner has escaped!”
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: BarracksDeath
+
+Barracks
+eventName: Barracks
+eventNarration: After a while the voices begin to dissipate, looking into the room you see several bunk beds as well as a fine, ornate door leading to somewhere important-looking. Next to it there is a *less* important looking door, dark brown with yellow stains on it with a disgusting odor coming from it. You also notice weaponry laying around, daggers, swords and spears to name a few. What would you like to do? 
+eventItem: dagger
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: BarracksId1, BarracksId2, BarracksId3
+
+BarracksId1
+choiceName: Look don’t tell.
+choiceNarration: Pick up a dagger and peek into the room with the ornate door. 
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: MainHallWest
+
+BarracksId2
+choiceName: Uhh ohhh Stinky!!
+choiceNarration: Take a dagger and open the door to the stinky room. 
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Commode
+
+BarracksId3
+choiceName: Yippee-ki-yay
+choiceNarration: Pick up as many swords, shields, spears, axes and daggers as you can carry and cut down every single sunuva bitch that dares stand in your way. Yippee-ki-yay mothertruckers.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: GloryDeath
+
+Commode
+eventName: Commode
+eventNarration: Opening the stained door you quickly realize what those stains are, the foul stench of having several soldiers, servants and civilians using the same commode fills your nostrils. You can see down the pipe which it all flows, other than that there is the door leading out to the courtyard. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: CommodeId1, CommodeId2, CommodeId3
+
+CommodeId1
+choiceName: Down she goes.
+choiceNarration: Jump into the commode and go down the pipes.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerPipes
+
+CommodeId2
+choiceName: What did you expect to find?
+choiceNarration: Search the room for anything useful.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: PeeDeath
+
+CommodeId3
+choiceName: Yard of court? Court of yard? Yardcourt? Courtyard.
+choiceNarration: Go out into the courtyard.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: CourtyardWest
+
+SewerCommode
+eventName: Sewer Commode
+eventNarration: Making your way up the pipe, you eventually see light streaming in from the top. Hurrying to scramble out of this slippery awful place before anyone has time to go to the commode you manage to wrestle your way out, taking several deep breaths to clear your lungs. Standing up you can see down the pipe which it all flows, other than that there is the door leading out to the courtyard. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: SewerCommodeId1, SewerCommodeId2, SewerCommodeId3
+
+SewerCommodeId1
+choiceName: Down she goes.
+choiceNarration: Jump into the commode and go down the pipes.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerPipes
+
+SewerCommodeId2
+choiceName: What did you expect to find?
+choiceNarration: Search the room for anything useful.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: PeeDeath
+
+SewerCommodeId3
+choiceName: Yard of court? Court of yard? Yardcourt? Courtyard.
+choiceNarration: Go out into the courtyard.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: CourtyardWest
+
+CourtyardWest
+eventName: Courtyard West
+eventNarration: Stepping out from the commode into the courtyard you see the high walls around the central open area, to your north are a pair of large doors that lead to the main hall, you think you could sneak over there but it seems risky. Other than that there is the gatehouse leading out of the castle. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: CourtyardWestId1, CourtyardWestId2, CourtyardWestId3
+
+CourtyardWestId1
+choiceName: Pro lurker
+choiceNarration: Lurk and skulk over to the main doors and elegantly open it.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: MainHallSouth
+
+CourtyardWestId2
+choiceName: To the gates of freedom
+choiceNarration: Run to the gate, sneaking be damned, you’re a barbarian!
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Gatehouse
+
+CourtyardWestId3
+choiceName: Hiding in plain sight
+choiceNarration: Start walking around, acting like you belong.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: ArchersDeath
+
+ArchersDeath
+eventName: Pincushion (Death by Archers)
+eventNarration: Attempting to act natural you begin to walk around greeting people, picking up random things and moving them to other places to make it seem as though you are doing something important. Unfortunately the archers on the walls notice you pacing back and forth all day and eventually figure out you’re the escaped prisoner. The light fades in your eyes as they fill you with arrows. (Death by Archers)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death
+
+Gatehouse
+eventName: Gatehouse
+eventNarration: Hurrying over to the gatehouse you can see one guard standing there yawning, he seems preoccupied but as you move closer you can see that he spots you at the corner of his eye. As you approach closer he says. “Well well well… If it isn’t the white hawk. Mind telling me what are you doing out of your cell?” He looks expectantly at you. You could just make a run for it. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: GatehouseId1, GatehouseId2
+
+GatehouseId1
+choiceName: A last spurt
+choiceNarration: Run past him and escape through the open gate
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: GateDeath
+
+GatehouseId2
+choiceName: Everyone has a price
+choiceNarration: Offer him the golden ring you found in the pipes from the king's commode.
+choiceItem: goldenRing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: GatehouseEscape
+
+MainHallWest
+eventName: Main Hall West
+eventNarration: Looking into the room with the ornate door you see the great hall. An excessively ornate throne made out of gold with precious gems adorning it sits at the end opposite of the main doors. Long great tables for feasting sit in the middle of the hall and in the corner is a surprisingly tasteful candelabra. There appears to be only one guard here, standing in the hallway to what looks like the kitchens. Seeming quite busy talking to one of the servant girls. Other than the door to the left leading to the kitchens, there are the large main doors at the other end to your right, and a smaller door straight ahead leading to the unknown. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: MainHallWestId1, MainHallWestId2, MainHallWestId3
+
+MainHallWestId1
+choiceName: Into the unknown!
+choiceNarration: Sneak over to the other side and enter the door opposite of you.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Bedroom
+
+MainHallWestId2
+choiceName: Use your throwing arm
+choiceNarration: Attempt to distract the guard by throwing a dagger at the servant girl.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: LoveDeath
+
+MainHallWestId3
+choiceName: Like a ninja
+choiceNarration: Use your natural stealth and finesse to quietly and sneakily open the main doors.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: CourtyardNorth
+
+MainHallSouth
+eventName: Main Hall South
+eventNarration: You manage to make your way over to the main doors and as you very sneakily open them they creak quite loud, but you’re sure no one heard that. An excessively ornate throne made out of gold with precious gems adorning it sits at the end opposite of the main doors. Long great tables for feasting sit in the middle of the hall and in the corner is a surprisingly tasteful candelabra. There appears to be only one guard here, standing in the hallway to what looks like the kitchens. Seeming quite busy talking to one of the servant girls. Other than the door to the north leading to the kitchens, there is a smaller door tor your right ahead leading to the unknown. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: MainHallSouthId1, MainHallSouthId2, MainHallSouthId3
+
+MainHallSouthId1
+choiceName: Through the Hearth
+choiceNarration: Climb up into and hide in the hearth until the guard and the servant walk away to sneak into the kitchens.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: HearthDeath
+
+MainHallSouthId2
+choiceName: Back out. Slowly.
+choiceNarration: Open the door to the main hall again and sneak out into the courtyard. Again.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: CourtyardNorth
+
+MainHallSouthId3
+choiceName: Professional Rogue
+choiceNarration: Sneak over to the smaller door and enter it.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Bedroom
+
+Bedroom
+eventName: Bedroom
+eventNarration: You quickly make your way to the other side, the servant girl and the guard seem too engaged in their conversation to notice you. Thank god for young love. Opening the door and slipping in you find yourself in a stairway leading up. Quickly following it you arrive in a wondrous bedroom, with silken sheets, wool pillows and a finely carved bed frame. Where you just came from the stairway continues upward, and to your left there is an unremarkable door. The carpet is unstained and soft, it feels amazing against your bare feet. What would you like to do? 
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: BedroomId1, BedroomId2, BedroomId3
+
+BedroomId1
+choiceName: BLJ pro
+choiceNarration: Step back out into the stairway and hurry up the stairs.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: Tower
+
+BedroomId2
+choiceName: Me so eepy
+choiceNarration: Take a nap on the bed, you’ve earned it making it this far.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: SleepDeath
+
+BedroomId3
+choiceName: Unremarkable? Iremarkable? Notremarkable?
+choiceNarration: Open the unremarkable door.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 3
+alertDeath: true
+nextEvent: PrivateCommode
+
+PrivateCommode
+eventName: PrivateCommode
+eventNarration: Opening the unremarkable door the first thing you notice is the stench, which you quickly forget about as you see the king on the commode in front you. He looks into your eyes as you feel your blood boil. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: PrivateCommodeId1, PrivateCommodeId2, PrivateCommodeId3
+
+PrivateCommodeId1
+choiceName: Feels good using your bare hands.
+choiceNarration: Attempt to strangle him.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: KingDeath
+
+PrivateCommodeId2
+choiceName: Slice, Slice, baby
+choiceNarration: Use the dagger you found in the barracks to stab him.
+choiceItem: dagger
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: KillKing
+
+PrivateCommodeId3
+choiceName: Pacifist run
+choiceNarration: Push him to the side and jump into the commode to escape.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: RoyalPipes
+
+KillKing
+eventName: KillKing
+eventNarration: He looks at you and speaks before you act “You’ll kill your own father in the privy? No. You’re my son. Now, enough of this nonsense.” You feel a hint of doubt and look at the dagger in your hand. As you look up again you see him reach for something behind him, the glint of metal reflects towards you and in your anger you leap at him with the dagger. Before he is able to pull anything forward you are already on him. By the time you are done the blood drips from your hands. You can hear guards running up the stairs as you pick up the king's crown. What would you like to do?
+eventItem: kingsCrown
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: KillKingId1, KillKingId2, KillKingId3
+
+KillKingId1
+choiceName: Bravely run away!
+choiceNarration: Jump into the commode to escape the guards
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: RoyalPipes
+
+KillKingId2
+choiceName: Come and take it!
+choiceNarration: Fight off the guards with your dagger and courage
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: FightDeath
+
+KillKingId3
+choiceName: Claim your birthright
+choiceNarration: Show them the king’s body and declare you are the new king.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: RightfulEnd
+
+RoyalPipes
+eventName: Royal Pipes
+eventNarration: Jumping down into the pipes you slide down the mess the king left, something catches your eye though, a golden sparkle from one of the stuck piles of excrement. It appears to be a golden ring! You pocket the precious before you keep sliding down until you reach an intersection. You can see a pipe going down further into the sewers, the pipe you just came from and a larger pipe going upwards, towards the communal commode. What would you like to do?
+eventItem: goldenRing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: RoyalPipesId1, RoyalPipesId2, RoyalPipesId3
+
+RoyalPipesId1
+choiceName: A nasty splash
+choiceNarration: Keep going down into the sewers.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: Sewers
+
+RoyalPipesId2
+choiceName: Are you not satisfied?!
+choiceNarration: Squeeze into the tighter pipe, you have unfinished business up there.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DeathByShit
+
+RoyalPipesId3
+choiceName: Up up and away!
+choiceNarration: Go through the main hole leading up.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerCommode
+
+Tower
+eventName: Tower
+eventNarration: After a minute of longingly staring at the bed you turn back around, continuing up the stairs. The spiral staircase just keeps going higher and higher. You consider turning around but you’ve made it this far right? Finally making it to the top of the stairs you take a few minutes desperately trying to catch your breath, cardio is hard! To your right is a door being hit by the wind, the sound filling the room. Continuing to look around you notice a ladder with a trapdoor at the top of it straight ahead. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: TowerId1, TowerId2, TowerId3
+
+TowerId1
+choiceName: Moon door
+choiceNarration: Step through the door being hit by wind. 
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: FallingDeath
+
+TowerId2
+choiceName: A real workout.
+choiceNarration: Turn back around and walk down the stairs, hopefully the bed is still there.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: StairsDeath
+
+TowerId3
+choiceName: To the top.
+choiceNarration: Climb up the ladder and go out through the hatch.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: TowerTop
+
+TowerTop
+eventName: Tower Top
+eventNarration: Climbing up the ladder and exiting out of the hatch you reach the top watchtower of the castle. As you begin looking around the hatch slams shut behind you, it appears to be unable to be opened from the outside as it has no handle. Looking around you see no real way off the top other than sliding off the roof. What would you like to do?
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: TowerTopId1, TowerTopId2
+
+TowerTopId1
+choiceName: Waiting is the hardest part
+choiceNarration: Without anything to protect your feet you would easily lose your grip and die trying to slide off. Better wait.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: StarvationDeath
+
+TowerTopId2
+choiceName: Cold feet
+choiceNarration: Put on the bloody shoes from the sewers to protect your feet and slide down the roof.
+choiceItem: bloodyShoes
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: TowerEscape
+
+Sewers
+eventName: Sewers
+eventNarration: Coming down you land face first in the river of excrement coming from different pipes throughout the castle. Standing up and wiping yourself off the smell hits you fast, you appear to be in the sewers. As you scan your surroundings the first thing you notice is wind coming from a tunnel to your left, wind this far down means the only place it could be coming from is outside! Other than that in front of you is another tunnel, with some strange sounds echoing from it. You also notice some discarded shoes and clothes on the floor as well as a pipe in the ceiling that you could probably climb up. What would you like to do?
+eventItem: bloodyShoes
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: SewersId1, SewersId2, SewersId3
+
+SewersId1
+choiceName: The sweet smell of freedom
+choiceNarration: Follow the wind to freedom.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: ExitTunnel
+
+SewersId2
+choiceName: Curiosity killed the rat. I mean cat.
+choiceNarration: Go down the tunnel in front of you, sounds can only mean good things!
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: RatsDeath
+
+SewersId3
+choiceName: Muddy climb.
+choiceNarration: Put on the bloody shoes and try to use them to get some leverage to climb up the pipe. 
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerPipes
+
+SewerPipes
+eventName: Tight fit.
+eventNarration: Squeezing through the fairly thin pipe as best as you can you shimmy your way forward as the smell of feces fills your nostrils. Trying to open your eyes as little as possible in this place you can feel the larger pipe you are currently in continuing, as well as a smaller pipe that you think you could fit in. 
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: SewerPipesId1, SewerPipesId2, SewerPipesId3
+
+SewerPipesId1
+choiceName: Down the rabbithole.
+choiceNarration: You’re getting too old for this shit, go down the pipe.
+choiceItem: nothing
+alertAlteration: 1
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: Sewers
+
+SewerPipesId2
+choiceName: Shitty day.
+choiceNarration: Squeeze into the tighter pipe, you smell something gold from it.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DeathByShit
+
+SewerPipesId3
+choiceName: Into a new hole.
+choiceNarration: Keep going through the main pipe, perseverance is the key to success.
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerCommode
+
+ExitTunnel
+eventName: Follow the light.
+eventNarration: Following the tunnel you begin to see a piercing light streaming through a gate to the outside, beginning to run towards it a giant rat, with several other rats tied to its tail stands in your way. 
+eventItem: nothing
+eventDeath: false
+eventEnd: false
+eventEscape: false
+listOfChoices: ExitTunnelId1, ExitTunnelId2
+
+ExitTunnelId1
+choiceName: Dodge and weave. 
+choiceNarration: Try to run around it and escape!
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: RatKingDeath
+
+ExitTunnelId2
+choiceName: Tribute to the king.
+choiceNarration: Take out the turkey leg you found in the kitchen and use it as a distraction to escape!
+choiceItem: turkeyLeg
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: SewerEscape
+
+AlertDeathLvl3
+eventName: Found By The Guards (Alert Level Reached 3)
+eventNarration: “What the?!” Turning around you see three guards standing there. "When did you get out of your cell? You're gonna pay for this scum!" The one in front quickly plunges their sword into your chest. The light fades from your eyes and you quickly perish on the floor. (Death by guard. Alert level reached 3)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death
+
+AlertDeathLvl4
+eventName: Hunted Down (Alert Level Reached 4)
+eventNarration: “Ah we finally found you!” Turning around you see four guards standing there, each of them taking a dagger and stabbing you 23 times. The light fades from your eyes and you quickly perish on the floor, covering your face the last thing you are able to do. (Death by guard. Alert level reached 4)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
+Restart
+choiceName: Restart
+choiceNarration: Restart
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonCell
+
+Death
+choiceName: Death
+choiceNarration: Retry
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonCell
+
+Quit
+choiceName: Quit
+choiceNarration: Quit
+choiceItem: nothing
+alertAlteration: 0
+alertDeathMinLvl: 0
+alertDeath: false
+nextEvent: DungeonCell
