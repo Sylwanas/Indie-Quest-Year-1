@@ -151,6 +151,15 @@ eventEnd: false
 eventEscape: false
 listOfChoices: Death, Quit
 
+ArchersDeath
+eventName: Pincushion (Death by Archers)
+eventNarration: Attempting to act natural you begin to walk around greeting people, picking up random things and moving them to other places to make it seem as though you are doing something important. Unfortunately the archers on the walls notice you pacing back and forth all day and eventually figure out you’re the escaped prisoner. The light fades in your eyes as they fill you with arrows. (Death by Archers)
+eventItem: nothing
+eventDeath: true
+eventEnd: false
+eventEscape: false
+listOfChoices: Death, Quit
+
 BarracksDeath
 eventName: What did you expect was going to happen? (Death by Ambition)
 eventNarration: As you slam open the door and yell, the guards quickly begin scrambling around, shouting orders and screaming at each other they all until the captain of the guard comes into the room. “What is all this ruckus about?!” “Sir the prisoner has escaped!” They answer and point at you. The captain takes one look at you before slapping the guard “That is the prisoner you idiot!” and the light fades in your eyes as they all attack you(Death by Ambition)
@@ -628,15 +637,6 @@ alertDeathMinLvl: 3
 alertDeath: true
 nextEvent: ArchersDeath
 
-ArchersDeath
-eventName: Pincushion (Death by Archers)
-eventNarration: Attempting to act natural you begin to walk around greeting people, picking up random things and moving them to other places to make it seem as though you are doing something important. Unfortunately the archers on the walls notice you pacing back and forth all day and eventually figure out you’re the escaped prisoner. The light fades in your eyes as they fill you with arrows. (Death by Archers)
-eventItem: nothing
-eventDeath: true
-eventEnd: false
-eventEscape: false
-listOfChoices: Death
-
 Gatehouse
 eventName: Gatehouse
 eventNarration: Hurrying over to the gatehouse you can see one guard standing there yawning, he seems preoccupied but as you move closer you can see that he spots you at the corner of his eye. As you approach closer he says. “Well well well… If it isn’t the white hawk. Mind telling me what are you doing out of your cell?” He looks expectantly at you. You could just make a run for it. What would you like to do?
@@ -1049,7 +1049,7 @@ eventItem: nothing
 eventDeath: true
 eventEnd: false
 eventEscape: false
-listOfChoices: Death
+listOfChoices: Death, Quit
 
 AlertDeathLvl4
 eventName: Hunted Down (Alert Level Reached 4)
